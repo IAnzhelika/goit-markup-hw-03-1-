@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson1</title>
+    <title>Головна</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,31 +17,37 @@
 <body>
     <!--My comment-->
     <header class="header">
-      
-    <div class="container">
+    <nav class="container main-nav" >
+    
         <a href="" class="link logo">Web<span class="accent">Studio</span></a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#" class="active link nav-link" class="link nav-link">Студия</a>
+       
+            <ul class="comtainer">
+                <li class="item">
+                    <a href="#"  class="active link nav-link" class="link nav-link">Студия</a>
                 </li>
-                <li>
-                    <a href="./portfolio.html"   class="link nav-link">Портфолио</a>
+                
+                
+                <li class="item">
+                    <a href="./portfolio.html"  class="nav-link" class="link nav-link" >Портфолио</a>
                 </li>
-                <li>
-                    <a href="#" class="link nav-link">Контакты</a>
+             
+                
+                <li class="item">
+                    <a href="#"  class="link nav-link">Контакты</a>
                 </li>
             </ul>
-            <ul>
-                <li><a href="mailto:info@devstudio.com" class="adresslink">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111"  class="adresslink" >+38 096 111 11 11</a></li>
+            
+            <ul class="adressconteiner">
+                <li class="aitem" ><a href="mailto:info@devstudio.com" class="adresslink">info@devstudio.com</a></li>
+                <li ><a href="tel:+380961111111"  class="adresslink" >+38 096 111 11 11</a></li>
             </ul>
     
         </nav>
-    </div>
+    
     </header>
     <!--Main content-->
     <main>
+       <div   clas="main-content">
      <!--section1-->
         <section class="section1">
             
@@ -52,7 +58,7 @@
         <!--section2-->
         <section class="section2">
            <h2 class="visually-hidden">Наши особенности</h2>
-                <ul >
+                <ul class="workcontainer">
                     <li>
                        <h3 class="specialwork">Внимание к деталям</h3>
                        <p class="special-title">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -114,6 +120,7 @@
                 </li>
             </ul>
         </section>
+        </div>
      </main>
     <!--copyright, etc-->
 <footer>
